@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Train Ticket Booking System">
+    <meta name="keywords" content="Train Booking, HTML, CSS, JavaScript">
+    <meta name="author" content="Rajeshwaran H">
+    <title>Train Ticket Booking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Train Ticket Booking System</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <form id="form">
+                <label for="name">Passenger Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120" required><br><br>
+                
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <label for="male"><input type="radio" id="male" name="gender" value="Male" required>Male</label>
+                    <label for="female"><input type="radio" id="female" name="gender" value="Female" required>Female</label>
+                    <label for="others"><input type="radio" id="others" name="gender" value="Others" required>Others</label>
+                </div><br>
+
+                <label for="source">Departure Station:</label>
+                <input type="text" id="source" name="source" placeholder="Enter your Departure Station" required><br><br>
+
+                <label for="destination">Destination Station:</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter your Destination Station" required><br><br>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br><br>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required><br><br>
+                
+                <button type="submit" id="btn">Check Availability</button>
+            </form>
+        </section>
+        <section class="result-section">
+            <h2>Available Trains</h2>  
+            <div id="trainList"></div>
+        </section>
+    </main>    
+    <footer>
+        <p>&copy; 2025 Train Ticket Booking System</p>
+    </footer>
+    <script src="script.js"></script>    
+</body>
+</html>

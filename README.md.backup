@@ -69,17 +69,16 @@ train-ticket-booking-system/
 - - - 
 ## Screenshots
 
-#### BOOKING PAGE
+#
 ![Home Page Desktop View](images/Home_Page_desktop.png "Home Page Desktop View")
 
 ![Home Page Mobile View](images/Home_Page_mobile.png "Home Page Mobile View")
-
-#### AVAILABLE TRAINS
 
 ![Available Trains Desktop View](images/Available_Trains_desktop.png "Available Trains Desktop View")
 
 ![Available Trains Mobile View](images/Available_Trains_mobile.png "Available Trains Mobile View")
 
+Train Availability
 - - - 
 ## Future Enhancements
 * Add backend integration for real-time train data.
